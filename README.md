@@ -5,10 +5,10 @@ React to build the application and provides an API server and client library tha
 
 ## How to install and launching
 
-1.Clone or download [repository](https://github.com/JiqiSun/myreads.git). 
-2.Navigate to myreads folder.
-3.npm install
-4.To lanuch the app useing npm start or yarn start
+1. Clone or download [repository](https://github.com/JiqiSun/myreads.git)
+2. Navigate to myreads folder
+3. npm install
+4. To lanuch the app useing npm start or yarn start
 
 
 
