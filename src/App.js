@@ -23,7 +23,7 @@ class BooksApp extends React.Component {
     const bookId = book.id
     const newShelf = shelf
     let books = this.state.books
-    for (book of books) {
+    for (let book of books) {
       if (book.id === bookId){
         book.shelf = newShelf
       } 
@@ -38,14 +38,16 @@ class BooksApp extends React.Component {
         })  
     )
    
-  } 
+  }
+
 
   render() {
     return (
       <div className="app">
           <Route path='/search' render={()=>(
             <Search
-              addBook={this.addBook}    
+              addBook={this.addBook}
+              isBookOnShelf={this.isBookOnShelf}    
             /> 
           )}/>  
           <Route exact  path='/'  render={()=>(

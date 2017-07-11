@@ -20,7 +20,7 @@ class Search extends Component {
 			else{
 				this.setState({books, notFound:false})
 			}
-		})		
+		})
     } 	
 
     getBook = (id) => {
@@ -28,7 +28,6 @@ class Search extends Component {
 			this.setState ({book})
 		})  
     }
-
 
 	render(){
 		const {addBook} = this.props
@@ -70,7 +69,8 @@ class Search extends Component {
 		)
 
 	}
-
 }
+
+
 
 export default Search
